@@ -23,7 +23,11 @@
 	<exclude-pattern type="relative">administrator/components/com_joomlaupdate/restore_finalisation.php</exclude-pattern>
 	<exclude-pattern type="relative">administrator/components/com_joomlaupdate/restore.php</exclude-pattern>
 	<exclude-pattern type="relative">configuration.php</exclude-pattern>
+	<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	<exclude-pattern type="relative">plugins/captcha/recaptcha/recaptchalib.php</exclude-pattern>
+
+	<!-- Exclude the RoboFile.php -->
+	<exclude-pattern type="relative">RoboFile.php</exclude-pattern>
 
 	<!-- Include all sniffs in an external standard directory -->
 	<rule ref="Generic.Files.EndFileNewline">
@@ -31,7 +35,6 @@
 		<exclude-pattern type="relative">*/tmpl/*</exclude-pattern>
 		<exclude-pattern type="relative">templates/*</exclude-pattern>
 		<exclude-pattern type="relative">layouts/*</exclude-pattern>
-		<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	</rule>
 
 	<!-- Use Unix newlines -->
@@ -51,14 +54,12 @@
 		<exclude-pattern type="relative">*/tmpl/*</exclude-pattern>
 		<exclude-pattern type="relative">templates/*</exclude-pattern>
 		<exclude-pattern type="relative">layouts/*</exclude-pattern>
-		<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	</rule>
 
 	<rule ref="Generic.Formatting.DisallowMultipleStatements">
 		<exclude-pattern type="relative">*/tmpl/*</exclude-pattern>
 		<exclude-pattern type="relative">templates/*</exclude-pattern>
 		<exclude-pattern type="relative">layouts/*</exclude-pattern>
-		<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	</rule>
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
 
@@ -157,7 +158,6 @@
 		<exclude-pattern type="relative">*/tmpl/*</exclude-pattern>
 		<exclude-pattern type="relative">templates/*</exclude-pattern>
 		<exclude-pattern type="relative">layouts/*</exclude-pattern>
-		<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	</rule>
 
 	<rule ref="Joomla.ControlStructures.InlineControlStructure">
@@ -165,7 +165,6 @@
 		<exclude-pattern type="relative">*/tmpl/*</exclude-pattern>
 		<exclude-pattern type="relative">templates/*</exclude-pattern>
 		<exclude-pattern type="relative">layouts/*</exclude-pattern>
-		<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	</rule>
 
 	<rule ref="Joomla.ControlStructures.MultiLineCondition">
@@ -173,7 +172,6 @@
 		<exclude-pattern type="relative">*/tmpl/*</exclude-pattern>
 		<exclude-pattern type="relative">templates/*</exclude-pattern>
 		<exclude-pattern type="relative">layouts/*</exclude-pattern>
-		<exclude-pattern type="relative">installation/template/index.php</exclude-pattern>
 	</rule>
 
 	<rule ref="Joomla.WhiteSpace.ConcatenationSpacing">
